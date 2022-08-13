@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background:#000;
+ 
+}
+h1,h2,h3{
+    color: #fff;
+}
+h3{
+    font-weight: lighter;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+img
+{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("netflixmain.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.main-top{
+    position: relative;
+    z-index: 10;
+    height: 90px;
+    
+}
+.main-top img{
+    width: 170px;
+    position: absolute;
+    padding: 2% 4%;
+    fill: red;
+    color: red;
+    
+}
+.main-top a{
+    position: absolute;
+    top: 30%;
+    right: 5px;
+    justify-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.main-content{
+    position: relative;
+    margin: 0 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 9rem;
+
+}
+
+.main-content h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0 50px;
+    line-height: 74.5px;
+}
+.main-content h3{
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0 0;
+    padding: 5px 0;
+    font-style: normal;
+}
+.main-content p{
+    font-size: 19.5px;
+    font-weight: 100;
+    margin: 0 0;
+    padding: 10px 0;
+    color: #fff;
+}
+.main-content input{
+    position: absolute;
+    left: 5px;
+    bottom: -9vh;
+    width: 500px;
+    height: 4rem;
+    font-size: 1rem;
+    padding-left: 0.5rem; 
+    outline: none;
+    border: none;
+   
+}
+
+.btn-rounded{
+    position: fixed;
+    background-color: red;
+    color: white;
+    margin: .3rem 50px;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.main-content a{
+
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: auto;
+    font-size: 28px;
+    font-weight: 250;
+    justify-content: center;   
+}
+.btn-lg{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: -9.1vh;
+    padding: 9px 11px 9px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    height: 45.5px;
+    width: 14rem;
+   
+}
+
+/*secondory section started*/
+
+
+
+.card-0
+{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 60% 45%;
+  text-align: left;
+  align-items: center;
+  padding: 50px 200px 50px; 
+  justify-content: center;
+  border-bottom: 8px solid rgba(94, 94, 94, 0.473);
+  border-top: 8px solid rgba(94, 94, 94, 0.473);
+}
+
+.card-0 video{
+    position: relative;
+    width: 100%;
+    height: 56%;
+    padding-bottom: 30px;
+    grid-column: 3/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card-0 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.desc-1{
+    font-size: 30px;
+    padding-left: 80px; 
+    font-weight: 400;
+}
+.desc-1 h3{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.card-1
+{
+    position: relative;
+    display:inline-grid;
+    text-align: right;
+    text-align: left;
+    align-items: center; 
+    grid-template-columns: 40% 60%;
+    padding: 50px 150px 50px;   
+    justify-content: space-between;
+    border-bottom: 8px solid rgba(94, 94, 94, 0.473);
+}
+.desc-2{
+
+    font-size: 30px;
+    padding-left: 100px;
+    font-weight: 400;
+}
+
+.desc-2 h3{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-2
+{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 60% 45%;
+  text-align: left;
+  align-items: center;
+  padding: 50px 200px 50px; 
+  justify-content: center;
+  border-bottom: 8px solid rgba(94, 94, 94, 0.473);
+  
+}
+.card-2 video
+{
+    position: relative;
+    top: -85px;
+    left: 100px;
+    width: 71%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.card-2 img
+{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.desc-3{
+    font-size: 30px;
+    padding-left: 80px;
+    font-weight: 400;
+}
+.desc-3 h3{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.card-3{
+    position: relative;
+    display:inline-grid;
+    text-align: right;
+    text-align: left;
+    align-items: center; 
+    grid-template-columns: 40% 60%;
+    padding: 50px 150px 50px;   
+    justify-content: space-between;
+    border-bottom: 8px solid rgba(94, 94, 94, 0.473);
+ 
+}
+.desc-0{
+    font-size: 30px;
+    padding-left: 100px;
+    font-weight: 400;
+}
+
+.desc-0 h3{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*faq section, last section */
+
+.lastsection{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 8px solid rgba(94, 94, 94, 0.473);
+}
+
+.lastsection h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quest{
+    color: #fff;
+    background-color: rgba(61, 60, 60, 0.829);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 52%;
+    margin: 0 0 8px 0 ;
+    min-height: 75px;
+    border-radius: 2px;
+
+}
+.quest .textbox{
+
+    display: flex;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: 25px;
+    word-spacing: 5px; 
+    cursor: pointer;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.quest i {
+    margin: 0 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.before-input-text{
+    color: white;
+    margin-top: 60px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.last-input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+.last-input-box{
+    width: 40%;
+    height: 4rem;
+    font-size: 18px;
+    padding-left: 5px;
+    outline: none;
+    border:none;
+}
+
+.btn-last{
+    background-color: red;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: -6px;
+    justify-content: center;
+
+}
+footer{
+  color: rgb(170, 170, 170);
+  width: 50%;
+  margin: 50px auto;
+  cursor: pointer;
+
+  
+}
+footer p{
+    margin-bottom: 2rem;
+    font-size: 17px;
+}
+ul{
+    list-style-type: none;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    line-height: 4vh;
+    font-size: 12.7px;
+    list-style: none;
+}
+
